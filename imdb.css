@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+} 
+body {
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#searchBlock article{ 
+width: 800px;
+margin: 50px auto;
+}
+
+input{
+ width: 100%;
+ padding: 20px;
+border-radius: 5px;
+border: 1px solid #ccc;
+font-size: 20px;
+text-transform: capitalize;
+}
+
+#template 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+}
+#movies article {
+width: 80%;
+margin: 0 auto;
+padding: 10px;
+background-color: darkgray;
+}
+img{
+    height: 500px;
+    object-fit: cover;
+    border: 1px solid black;
+    width: 100%;
+    padding: 33px;
+}
